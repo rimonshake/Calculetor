@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body img{
+    height: 713px;
+    width: 100%;
+    display: block;
+}
+body .text{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    background:linear-gradient(white, red,orange, blue, white) ;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .text h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+
+}
+
+
+/* Main part start here */
+#calculetor{
+    position:absolute;
+    margin-top: 40px;
+    height: 560px;
+    width: 400px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px wheat, -2px -2px 2px wheat;
+}
+#calculetor input{
+    display: block;
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+#calculetor button{
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 5px 5px 10px;
+}
+#calculetor button:hover{
+    background-color: rgb(220, 224, 227);
+    transition: all 0.2s ease-in-out;
+}
+#calculetor div{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+
+#calculetor #Cbtn{
+    height: 40px;
+    width: 65px;
+    position: relative;
+    left: 255px;
+    bottom: 385px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+#calculetor #Cbtn:hover{
+    background-color: rgb(220, 224, 227);
+    transition: all 0.2s ease-in-out;
+}
